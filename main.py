@@ -44,7 +44,7 @@ def main():
     driver.quit
 
     
-    #create union set of both lists
+    #create intersection set of both lists
     final_list = []
     for elem in user1_titles:
         if elem in user2_titles and elem not in final_list:
